@@ -1,4 +1,4 @@
-Organic Custom Content v1.0
+Organic Custom Content v1.0.1
 http://www.organicthemes.com
 
 A plugin that registers Custom Content Types and Custom Post Types for Organic Themes
@@ -9,3 +9,6 @@ INSTALL:
 
 CHANGELOG v1.0:
 - Initial build
+
+CHANGELOG v1.0.1:
+- Added Organic Music Theme as case
