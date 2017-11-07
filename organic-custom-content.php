@@ -3,7 +3,7 @@
  * Plugin Name: Organic Custom Content
  * Plugin URI: http://organicthemes.com
  * Description: Registers Custom Post Types for Organic Themes
- * Version: 1.0.1
+ * Version: 1.0.2
  * GitHub Plugin URI: https://github.com/Invulu/organic-custom-content
  * Author: Organic Themes
  * Author URI: http://organicthemes.com
@@ -33,6 +33,7 @@ if ( ! function_exists( 'organic_cc_init' ) ) {
     switch ($organic_cc_current_theme) {
       case 'organic-entertainer':
 			case 'organic-music':
+			case 'music-lite':
 
         // Tour Date CPT
         organic_cc_register_cpt_tour_date();
