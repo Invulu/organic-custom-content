@@ -6,10 +6,8 @@
 -------------------------------------------------------------------------------------------------------
 */
 function organic_cc_which_theme_is_active() {
-
   $theme = get_template();
   return $theme;
-
 }
 
 /*
@@ -18,7 +16,7 @@ function organic_cc_which_theme_is_active() {
 -------------------------------------------------------------------------------------------------------
 */
 function organic_cc_register_cpt_tour_date() {
-  
+
   include_once plugin_dir_path( __FILE__ ) . '/post-types/post-type-tour-date.php';
 
 	$labels = array(
