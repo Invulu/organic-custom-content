@@ -2,7 +2,7 @@
 Contributors: jqlee85, itsdavidmorgan, organicthemes
 Donate link: https://organicthemes.com
 Tags: custom post types, organic themes
-Stable tag: 1.0.4
+Stable tag: 1.0.5
 Requires at least: 4.8
 Tested up to: 4.9.1
 License: GPLv2 or later
@@ -26,6 +26,9 @@ A plugin that registers Custom Content Types and Custom Post Types for specific 
 A: No. This plugin is designed to work only with specific Organic Themes that require custom post types.
 
 == Changelog ==
+
+= 1.0.5 =
+* Changed order of sanitization
 
 = 1.0.4 =
 * Sanitization and escaping

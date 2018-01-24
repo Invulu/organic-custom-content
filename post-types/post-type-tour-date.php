@@ -113,12 +113,6 @@ function organic_cc_tour_date_info_html( $post ) {
 
 function organic_cc_tour_date_info_save( $post_id ) {
 
-	$tour_date_info_location_city_state_province_country_etc = sanitize_text_field( $_POST['tour_date_info_location_city_state_province_country_etc_'] );
-	$tour_date_info_venue = sanitize_text_field( $_POST['tour_date_info_venue'] );
-	$tour_date_info_venue_ticketing_url = esc_url( $_POST['tour_date_info_venue_ticketing_url'] );
-	$tour_date_info_date = sanitize_text_field( $_POST['tour_date_info_date'] );
-	$tour_date_info_time = sanitize_text_field( $_POST['tour_date_info_time'] );
-
 	if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) {
 		return;
 	}
@@ -128,6 +122,12 @@ function organic_cc_tour_date_info_save( $post_id ) {
 	if ( ! current_user_can( 'edit_post', $post_id ) ) {
 		return;
 	}
+
+	$tour_date_info_location_city_state_province_country_etc = sanitize_text_field( $_POST['tour_date_info_location_city_state_province_country_etc_'] );
+	$tour_date_info_venue = sanitize_text_field( $_POST['tour_date_info_venue'] );
+	$tour_date_info_venue_ticketing_url = esc_url( $_POST['tour_date_info_venue_ticketing_url'] );
+	$tour_date_info_date = sanitize_text_field( $_POST['tour_date_info_date'] );
+	$tour_date_info_time = sanitize_text_field( $_POST['tour_date_info_time'] );
 
 	if ( isset( $tour_date_info_location_city_state_province_country_etc ) ) {
 		update_post_meta( $post_id, 'tour_date_info_location_city_state_province_country_etc_', $tour_date_info_location_city_state_province_country_etc );
