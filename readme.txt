@@ -8,11 +8,11 @@ Tested up to: 4.9.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A plugin that registers Custom Content Types and Custom Post Types for specific Organic Themes.
+A plugin that registers Custom Post Types for specific Organic Themes.
 
 == Description ==
 
-A plugin that registers Custom Content Types and Custom Post Types for specific Organic Themes.
+A plugin that registers Custom Post Types for specific Organic Themes.
 
 == Installation ==
 
