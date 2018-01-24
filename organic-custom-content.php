@@ -7,7 +7,7 @@
  *
  * @wordpress-plugin
  * Plugin Name: Organic Custom Content
- * Plugin URI: http://organicthemes.com
+ * Plugin URI: https://organicthemes.com
  * Description: The Organic Custom Content plugin registers Custom Post Types for various Organic Themes. This plugin is only usable with specific Organic Themes.
  * Version: 1.0.5
  * GitHub Plugin URI: https://github.com/Invulu/organic-custom-content
