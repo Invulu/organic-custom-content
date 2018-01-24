@@ -9,7 +9,7 @@
  * Plugin Name: Organic Custom Content
  * Plugin URI: http://organicthemes.com
  * Description: Registers Custom Post Types for Organic Themes.
- * Version: 1.0.3.
+ * Version: 1.0.4
  * GitHub Plugin URI: https://github.com/Invulu/organic-custom-content
  * Author: Organic Themes
  * Author URI: https://organicthemes.com
@@ -30,7 +30,6 @@ if ( ! function_exists( 'organic_cc_init' ) ) {
 
 		// Find out which parent theme is currently Active
 		$organic_cc_current_theme = organic_cc_which_theme_is_active();
-
 
 		// Run functions for active theme
 		switch ($organic_cc_current_theme) {
