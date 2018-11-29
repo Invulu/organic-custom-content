@@ -2,13 +2,13 @@
 Contributors: jqlee85, itsdavidmorgan, organicthemes
 Donate link: https://organicthemes.com
 Tags: custom post types, organic themes
-Stable tag: 1.0.5
+Stable tag: 1.0.6
 Requires at least: 4.8
-Tested up to: 4.9.1
+Tested up to: 5.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A plugin that registers Custom Post Types for specific Organic Themes.
+A plugin that registers Custom Post Types for specific Organic Themes. Currently, the plugin registers the Tour Date CPT for the Music and Entertainer themes.
 
 == Description ==
 
@@ -26,6 +26,9 @@ A plugin that registers Custom Post Types for specific Organic Themes.
 A: No. This plugin is designed to work only with specific Organic Themes that require custom post types.
 
 == Changelog ==
+
+= 1.0.6 =
+* General cleanup
 
 = 1.0.5 =
 * Changed order of sanitization
